@@ -1,0 +1,12 @@
+removeStrategy:
+  items: "none"
+  rbac: "sync"
+
+items:
+  - kind: "folder"
+    name: "This is a test folder"
+    description: "This has all of my test jobs"
+    items:
+      - kind: "folder"
+        name: "A test sub-folder"
+
